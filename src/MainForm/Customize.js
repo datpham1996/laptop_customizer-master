@@ -1,5 +1,7 @@
+
 import React, { Component } from 'react'
-import Part from './Part'
+import Specs from './Specs'
+import Part from './Parts'
 
 class Customize extends Component {
   
