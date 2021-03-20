@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import Customize from './MainForm/Customize';
-import Cart from './MainSummary/Cart';
+import Cart from './MainSummary/CartSummary';
 
-// Normalizes string as a slug - a string that is safe to use
-// in both URLs and html attributes
 import slugify from 'slugify';
 import './App.css';
 

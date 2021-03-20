@@ -8,14 +8,7 @@ class Part extends Component {
   render(props) {
     
     return (
-    // <div>
-    //   <h2>{this.props.featureName}</h2>
-    //   {this.props.features.map((name, index) => <h2>{name.name} + {name.cost}</h2>) }
-    // </div>
-
-    // <div key={itemHash} className="feature__item"> <---KEEP THIS, FIX
-    // htmlFor={itemHash} <--- add back to label tag below
-    //add key to below fieldset
+   
     <fieldset key={this.props.featureHash} className="feature">
       <legend className="feature__name">
         <h3>{this.props.featureName}</h3>

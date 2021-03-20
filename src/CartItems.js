@@ -11,7 +11,7 @@ class CartItems extends Component {
           {this.props.currency.format(this.props.selected.cost)}
         </div>
       </div>
-      // const selectedOption = this.state.selected[feature];
+
     );
   }
 }
