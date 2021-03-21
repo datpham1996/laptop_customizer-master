@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Customize from './MainForm/Customize';
 import Cart from './MainSummary/CartSummary';
 
-import slugify from 'slugify';
+// import slugify from 'slugify';
 import './App.css';
 
 
